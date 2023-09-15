@@ -1,0 +1,81 @@
+2021-04-23 11:09:12,106:INFO:
+=======
+models:Unet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:11:30,046:INFO:
+=======
+models:Unet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:16:29,836:INFO:
+=======
+models:Unet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:17:43,212:INFO:
+=======
+models:Unet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:20:11,473:INFO:
+=======
+models:Unet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:20:45,974:INFO:
+=======
+models:UNet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:21:43,838:INFO:
+=======
+models:UNet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:27:21,566:INFO:
+=======
+models:UNet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:27:21,672:INFO:Epoch 0/20
+2021-04-23 11:27:26,468:INFO:1/213,train_loss:0.719
+2021-04-23 11:27:30,754:INFO:2/213,train_loss:0.695
+2021-04-23 11:27:34,503:INFO:3/213,train_loss:0.628
+2021-04-23 11:27:37,788:INFO:4/213,train_loss:0.588
+2021-04-23 11:27:41,154:INFO:5/213,train_loss:0.515
+2021-04-23 11:27:44,637:INFO:6/213,train_loss:0.532
+2021-04-23 11:27:48,138:INFO:7/213,train_loss:0.548
+2021-04-23 11:27:51,446:INFO:8/213,train_loss:0.532
+2021-04-23 11:27:54,760:INFO:9/213,train_loss:0.559
+2021-04-23 11:27:58,279:INFO:10/213,train_loss:0.445
+2021-04-23 11:28:01,632:INFO:11/213,train_loss:0.559
+2021-04-23 11:28:04,962:INFO:12/213,train_loss:0.437
+2021-04-23 11:28:08,690:INFO:13/213,train_loss:0.373
+2021-04-23 11:28:13,216:INFO:14/213,train_loss:0.412
+2021-04-23 11:40:35,399:INFO:
+=======
+models:UNet,
+epoch:21,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-23 11:40:35,510:INFO:Epoch 0/20
+2021-04-23 11:40:39,967:INFO:1/213,train_loss:0.621
+2021-04-23 11:40:43,439:INFO:2/213,train_loss:0.572

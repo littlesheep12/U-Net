@@ -1,0 +1,2218 @@
+2021-04-24 14:34:59,025:INFO:
+=======
+models:UNet,
+epoch:1,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-24 14:35:01,994:INFO:Epoch 0/0
+2021-04-24 14:35:02,414:INFO:1/213,train_loss:0.635
+2021-04-24 14:35:02,487:INFO:2/213,train_loss:0.611
+2021-04-24 14:35:02,546:INFO:3/213,train_loss:0.589
+2021-04-24 14:35:02,602:INFO:4/213,train_loss:0.564
+2021-04-24 14:35:02,658:INFO:5/213,train_loss:0.568
+2021-04-24 14:35:02,715:INFO:6/213,train_loss:0.548
+2021-04-24 14:35:02,771:INFO:7/213,train_loss:0.558
+2021-04-24 14:35:02,828:INFO:8/213,train_loss:0.531
+2021-04-24 14:35:02,885:INFO:9/213,train_loss:0.546
+2021-04-24 14:35:02,942:INFO:10/213,train_loss:0.521
+2021-04-24 14:35:02,998:INFO:11/213,train_loss:0.496
+2021-04-24 14:35:03,055:INFO:12/213,train_loss:0.482
+2021-04-24 14:35:03,112:INFO:13/213,train_loss:0.469
+2021-04-24 14:35:03,168:INFO:14/213,train_loss:0.434
+2021-04-24 14:35:03,225:INFO:15/213,train_loss:0.421
+2021-04-24 14:35:03,281:INFO:16/213,train_loss:0.420
+2021-04-24 14:35:03,337:INFO:17/213,train_loss:0.393
+2021-04-24 14:35:03,393:INFO:18/213,train_loss:0.360
+2021-04-24 14:35:03,450:INFO:19/213,train_loss:0.359
+2021-04-24 14:35:03,506:INFO:20/213,train_loss:0.361
+2021-04-24 14:35:03,562:INFO:21/213,train_loss:0.363
+2021-04-24 14:35:03,618:INFO:22/213,train_loss:0.340
+2021-04-24 14:35:03,675:INFO:23/213,train_loss:0.339
+2021-04-24 14:35:03,731:INFO:24/213,train_loss:0.359
+2021-04-24 14:35:03,787:INFO:25/213,train_loss:0.322
+2021-04-24 14:35:03,843:INFO:26/213,train_loss:0.326
+2021-04-24 14:35:03,900:INFO:27/213,train_loss:0.316
+2021-04-24 14:35:03,956:INFO:28/213,train_loss:0.326
+2021-04-24 14:35:04,013:INFO:29/213,train_loss:0.323
+2021-04-24 14:35:04,069:INFO:30/213,train_loss:0.310
+2021-04-24 14:35:04,125:INFO:31/213,train_loss:0.293
+2021-04-24 14:35:04,182:INFO:32/213,train_loss:0.312
+2021-04-24 14:35:04,238:INFO:33/213,train_loss:0.298
+2021-04-24 14:35:04,295:INFO:34/213,train_loss:0.265
+2021-04-24 14:35:04,351:INFO:35/213,train_loss:0.340
+2021-04-24 14:35:04,408:INFO:36/213,train_loss:0.325
+2021-04-24 14:35:04,464:INFO:37/213,train_loss:0.340
+2021-04-24 14:35:04,521:INFO:38/213,train_loss:0.255
+2021-04-24 14:35:04,578:INFO:39/213,train_loss:0.255
+2021-04-24 14:35:04,635:INFO:40/213,train_loss:0.276
+2021-04-24 14:35:04,691:INFO:41/213,train_loss:0.253
+2021-04-24 14:35:04,748:INFO:42/213,train_loss:0.257
+2021-04-24 14:35:04,804:INFO:43/213,train_loss:0.245
+2021-04-24 14:35:04,861:INFO:44/213,train_loss:0.291
+2021-04-24 14:35:04,918:INFO:45/213,train_loss:0.402
+2021-04-24 14:35:04,975:INFO:46/213,train_loss:0.230
+2021-04-24 14:35:05,032:INFO:47/213,train_loss:0.240
+2021-04-24 14:35:05,089:INFO:48/213,train_loss:0.239
+2021-04-24 14:35:05,146:INFO:49/213,train_loss:0.223
+2021-04-24 14:35:05,204:INFO:50/213,train_loss:0.241
+2021-04-24 14:35:05,261:INFO:51/213,train_loss:0.198
+2021-04-24 14:35:05,318:INFO:52/213,train_loss:0.207
+2021-04-24 14:35:05,375:INFO:53/213,train_loss:0.229
+2021-04-24 14:35:05,433:INFO:54/213,train_loss:0.296
+2021-04-24 14:35:05,491:INFO:55/213,train_loss:0.207
+2021-04-24 14:35:05,548:INFO:56/213,train_loss:0.258
+2021-04-24 14:35:05,605:INFO:57/213,train_loss:0.199
+2021-04-24 14:35:05,662:INFO:58/213,train_loss:0.225
+2021-04-24 14:35:05,718:INFO:59/213,train_loss:0.192
+2021-04-24 14:35:05,775:INFO:60/213,train_loss:0.200
+2021-04-24 14:35:05,832:INFO:61/213,train_loss:0.396
+2021-04-24 14:35:05,888:INFO:62/213,train_loss:0.209
+2021-04-24 14:35:05,945:INFO:63/213,train_loss:0.212
+2021-04-24 14:35:06,001:INFO:64/213,train_loss:0.201
+2021-04-24 14:35:06,058:INFO:65/213,train_loss:0.338
+2021-04-24 14:35:06,115:INFO:66/213,train_loss:0.221
+2021-04-24 14:35:06,171:INFO:67/213,train_loss:0.174
+2021-04-24 14:35:06,228:INFO:68/213,train_loss:0.173
+2021-04-24 14:35:06,286:INFO:69/213,train_loss:0.182
+2021-04-24 14:35:06,342:INFO:70/213,train_loss:0.198
+2021-04-24 14:35:06,399:INFO:71/213,train_loss:0.330
+2021-04-24 14:35:06,455:INFO:72/213,train_loss:0.207
+2021-04-24 14:35:06,512:INFO:73/213,train_loss:0.315
+2021-04-24 14:35:06,568:INFO:74/213,train_loss:0.203
+2021-04-24 14:35:06,625:INFO:75/213,train_loss:0.214
+2021-04-24 14:35:06,681:INFO:76/213,train_loss:0.167
+2021-04-24 14:35:06,738:INFO:77/213,train_loss:0.213
+2021-04-24 14:35:06,794:INFO:78/213,train_loss:0.168
+2021-04-24 14:35:06,851:INFO:79/213,train_loss:0.217
+2021-04-24 14:35:06,908:INFO:80/213,train_loss:0.237
+2021-04-24 14:35:06,964:INFO:81/213,train_loss:0.246
+2021-04-24 14:35:07,021:INFO:82/213,train_loss:0.143
+2021-04-24 14:35:07,077:INFO:83/213,train_loss:0.152
+2021-04-24 14:35:07,134:INFO:84/213,train_loss:0.148
+2021-04-24 14:35:07,191:INFO:85/213,train_loss:0.149
+2021-04-24 14:35:07,247:INFO:86/213,train_loss:0.220
+2021-04-24 14:35:07,304:INFO:87/213,train_loss:0.193
+2021-04-24 14:35:07,360:INFO:88/213,train_loss:0.158
+2021-04-24 14:35:07,417:INFO:89/213,train_loss:0.344
+2021-04-24 14:35:07,474:INFO:90/213,train_loss:0.152
+2021-04-24 14:35:07,530:INFO:91/213,train_loss:0.204
+2021-04-24 14:35:07,586:INFO:92/213,train_loss:0.163
+2021-04-24 14:35:07,643:INFO:93/213,train_loss:0.177
+2021-04-24 14:35:07,699:INFO:94/213,train_loss:0.131
+2021-04-24 14:35:07,755:INFO:95/213,train_loss:0.171
+2021-04-24 14:35:07,811:INFO:96/213,train_loss:0.174
+2021-04-24 14:35:07,868:INFO:97/213,train_loss:0.200
+2021-04-24 14:35:07,924:INFO:98/213,train_loss:0.149
+2021-04-24 14:35:07,981:INFO:99/213,train_loss:0.146
+2021-04-24 14:35:08,037:INFO:100/213,train_loss:0.165
+2021-04-24 14:35:08,093:INFO:101/213,train_loss:0.126
+2021-04-24 14:35:08,150:INFO:102/213,train_loss:0.148
+2021-04-24 14:35:08,206:INFO:103/213,train_loss:0.133
+2021-04-24 14:35:08,262:INFO:104/213,train_loss:0.129
+2021-04-24 14:35:08,318:INFO:105/213,train_loss:0.173
+2021-04-24 14:35:08,374:INFO:106/213,train_loss:0.155
+2021-04-24 14:35:08,431:INFO:107/213,train_loss:0.119
+2021-04-24 14:35:08,487:INFO:108/213,train_loss:0.122
+2021-04-24 14:35:08,543:INFO:109/213,train_loss:0.116
+2021-04-24 14:35:08,599:INFO:110/213,train_loss:0.223
+2021-04-24 14:35:08,656:INFO:111/213,train_loss:0.127
+2021-04-24 14:35:08,712:INFO:112/213,train_loss:0.115
+2021-04-24 14:35:08,768:INFO:113/213,train_loss:0.115
+2021-04-24 14:35:08,825:INFO:114/213,train_loss:0.102
+2021-04-24 14:35:08,881:INFO:115/213,train_loss:0.121
+2021-04-24 14:35:08,937:INFO:116/213,train_loss:0.112
+2021-04-24 14:35:08,994:INFO:117/213,train_loss:0.138
+2021-04-24 14:35:09,050:INFO:118/213,train_loss:0.108
+2021-04-24 14:35:09,106:INFO:119/213,train_loss:0.105
+2021-04-24 14:35:09,163:INFO:120/213,train_loss:0.240
+2021-04-24 14:35:09,219:INFO:121/213,train_loss:0.453
+2021-04-24 14:35:09,276:INFO:122/213,train_loss:0.107
+2021-04-24 14:35:09,332:INFO:123/213,train_loss:0.121
+2021-04-24 14:35:09,389:INFO:124/213,train_loss:0.135
+2021-04-24 14:35:09,445:INFO:125/213,train_loss:0.137
+2021-04-24 14:35:09,501:INFO:126/213,train_loss:0.102
+2021-04-24 14:35:09,558:INFO:127/213,train_loss:0.139
+2021-04-24 14:35:09,614:INFO:128/213,train_loss:0.130
+2021-04-24 14:35:09,671:INFO:129/213,train_loss:0.109
+2021-04-24 14:35:09,727:INFO:130/213,train_loss:0.104
+2021-04-24 14:35:09,783:INFO:131/213,train_loss:0.133
+2021-04-24 14:35:09,840:INFO:132/213,train_loss:0.219
+2021-04-24 14:35:09,896:INFO:133/213,train_loss:0.146
+2021-04-24 14:35:09,953:INFO:134/213,train_loss:0.119
+2021-04-24 14:35:10,010:INFO:135/213,train_loss:0.144
+2021-04-24 14:35:10,067:INFO:136/213,train_loss:0.100
+2021-04-24 14:35:10,123:INFO:137/213,train_loss:0.135
+2021-04-24 14:35:10,180:INFO:138/213,train_loss:0.371
+2021-04-24 14:35:10,237:INFO:139/213,train_loss:0.241
+2021-04-24 14:35:10,293:INFO:140/213,train_loss:0.117
+2021-04-24 14:35:10,350:INFO:141/213,train_loss:0.220
+2021-04-24 14:35:10,407:INFO:142/213,train_loss:0.164
+2021-04-24 14:35:10,464:INFO:143/213,train_loss:0.102
+2021-04-24 14:35:10,521:INFO:144/213,train_loss:0.110
+2021-04-24 14:35:10,577:INFO:145/213,train_loss:0.087
+2021-04-24 14:35:10,634:INFO:146/213,train_loss:0.087
+2021-04-24 14:35:10,691:INFO:147/213,train_loss:0.342
+2021-04-24 14:35:10,748:INFO:148/213,train_loss:0.099
+2021-04-24 14:35:10,804:INFO:149/213,train_loss:0.147
+2021-04-24 14:35:10,861:INFO:150/213,train_loss:0.128
+2021-04-24 14:35:10,917:INFO:151/213,train_loss:0.093
+2021-04-24 14:35:10,973:INFO:152/213,train_loss:0.098
+2021-04-24 14:35:11,030:INFO:153/213,train_loss:0.092
+2021-04-24 14:35:11,087:INFO:154/213,train_loss:0.164
+2021-04-24 14:35:11,143:INFO:155/213,train_loss:0.099
+2021-04-24 14:35:11,201:INFO:156/213,train_loss:0.101
+2021-04-24 14:35:11,258:INFO:157/213,train_loss:0.145
+2021-04-24 14:35:11,315:INFO:158/213,train_loss:0.079
+2021-04-24 14:35:11,372:INFO:159/213,train_loss:0.075
+2021-04-24 14:35:11,428:INFO:160/213,train_loss:0.101
+2021-04-24 14:35:11,485:INFO:161/213,train_loss:0.086
+2021-04-24 14:35:11,542:INFO:162/213,train_loss:0.086
+2021-04-24 14:35:11,599:INFO:163/213,train_loss:0.116
+2021-04-24 14:35:11,656:INFO:164/213,train_loss:0.091
+2021-04-24 14:35:11,713:INFO:165/213,train_loss:0.095
+2021-04-24 14:35:11,769:INFO:166/213,train_loss:0.092
+2021-04-24 14:35:11,827:INFO:167/213,train_loss:0.098
+2021-04-24 14:35:11,883:INFO:168/213,train_loss:0.127
+2021-04-24 14:35:11,940:INFO:169/213,train_loss:0.072
+2021-04-24 14:35:11,997:INFO:170/213,train_loss:0.080
+2021-04-24 14:35:12,054:INFO:171/213,train_loss:0.076
+2021-04-24 14:35:12,111:INFO:172/213,train_loss:0.199
+2021-04-24 14:35:12,169:INFO:173/213,train_loss:0.081
+2021-04-24 14:35:12,226:INFO:174/213,train_loss:0.069
+2021-04-24 14:35:12,283:INFO:175/213,train_loss:0.072
+2021-04-24 14:35:12,340:INFO:176/213,train_loss:0.080
+2021-04-24 14:35:12,397:INFO:177/213,train_loss:0.076
+2021-04-24 14:35:12,454:INFO:178/213,train_loss:0.061
+2021-04-24 14:35:12,511:INFO:179/213,train_loss:0.078
+2021-04-24 14:35:12,567:INFO:180/213,train_loss:0.087
+2021-04-24 14:35:12,624:INFO:181/213,train_loss:0.109
+2021-04-24 14:35:12,680:INFO:182/213,train_loss:0.087
+2021-04-24 14:35:12,737:INFO:183/213,train_loss:0.269
+2021-04-24 14:35:12,793:INFO:184/213,train_loss:0.064
+2021-04-24 14:35:12,850:INFO:185/213,train_loss:0.080
+2021-04-24 14:35:12,907:INFO:186/213,train_loss:0.081
+2021-04-24 14:35:12,964:INFO:187/213,train_loss:0.082
+2021-04-24 14:35:13,020:INFO:188/213,train_loss:0.073
+2021-04-24 14:35:13,077:INFO:189/213,train_loss:0.218
+2021-04-24 14:35:13,133:INFO:190/213,train_loss:0.096
+2021-04-24 14:35:13,189:INFO:191/213,train_loss:0.090
+2021-04-24 14:35:13,246:INFO:192/213,train_loss:0.098
+2021-04-24 14:35:13,302:INFO:193/213,train_loss:0.122
+2021-04-24 14:35:13,359:INFO:194/213,train_loss:0.074
+2021-04-24 14:35:13,415:INFO:195/213,train_loss:0.095
+2021-04-24 14:35:13,471:INFO:196/213,train_loss:0.080
+2021-04-24 14:35:13,527:INFO:197/213,train_loss:0.078
+2021-04-24 14:35:13,584:INFO:198/213,train_loss:0.093
+2021-04-24 14:35:13,640:INFO:199/213,train_loss:0.065
+2021-04-24 14:35:13,697:INFO:200/213,train_loss:0.075
+2021-04-24 14:35:13,753:INFO:201/213,train_loss:0.190
+2021-04-24 14:35:13,810:INFO:202/213,train_loss:0.149
+2021-04-24 14:35:13,867:INFO:203/213,train_loss:0.129
+2021-04-24 14:35:13,923:INFO:204/213,train_loss:0.064
+2021-04-24 14:35:13,979:INFO:205/213,train_loss:0.089
+2021-04-24 14:35:14,036:INFO:206/213,train_loss:0.079
+2021-04-24 14:35:14,094:INFO:207/213,train_loss:0.112
+2021-04-24 14:35:14,150:INFO:208/213,train_loss:0.069
+2021-04-24 14:35:14,207:INFO:209/213,train_loss:0.069
+2021-04-24 14:35:14,265:INFO:210/213,train_loss:0.170
+2021-04-24 14:35:14,321:INFO:211/213,train_loss:0.059
+2021-04-24 14:35:14,378:INFO:212/213,train_loss:0.073
+2021-04-24 14:35:14,435:INFO:213/213,train_loss:0.084
+2021-04-24 14:35:19,557:INFO:Miou=0.016966,aver_hd=0.171734,aver_dice=0.017708
+2021-04-24 14:35:39,604:INFO:
+=======
+models:UNet,
+epoch:1,
+batch size:1
+dataset:kaggleLung
+========
+2021-04-24 14:35:41,935:INFO:Epoch 0/0
+2021-04-24 14:35:42,221:INFO:1/213,train_loss:0.638
+2021-04-24 14:35:42,289:INFO:2/213,train_loss:0.626
+2021-04-24 14:35:42,347:INFO:3/213,train_loss:0.600
+2021-04-24 14:35:42,405:INFO:4/213,train_loss:0.567
+2021-04-24 14:35:42,462:INFO:5/213,train_loss:0.553
+2021-04-24 14:35:42,519:INFO:6/213,train_loss:0.539
+2021-04-24 14:35:42,578:INFO:7/213,train_loss:0.553
+2021-04-24 14:35:42,635:INFO:8/213,train_loss:0.521
+2021-04-24 14:35:42,692:INFO:9/213,train_loss:0.485
+2021-04-24 14:35:42,748:INFO:10/213,train_loss:0.604
+2021-04-24 14:35:42,804:INFO:11/213,train_loss:0.471
+2021-04-24 14:35:42,861:INFO:12/213,train_loss:0.501
+2021-04-24 14:35:42,917:INFO:13/213,train_loss:0.392
+2021-04-24 14:35:42,973:INFO:14/213,train_loss:0.444
+2021-04-24 14:35:43,030:INFO:15/213,train_loss:0.429
+2021-04-24 14:35:43,086:INFO:16/213,train_loss:0.377
+2021-04-24 14:35:43,142:INFO:17/213,train_loss:0.328
+2021-04-24 14:35:43,199:INFO:18/213,train_loss:0.341
+2021-04-24 14:35:43,256:INFO:19/213,train_loss:0.284
+2021-04-24 14:35:43,312:INFO:20/213,train_loss:0.351
+2021-04-24 14:35:43,369:INFO:21/213,train_loss:0.418
+2021-04-24 14:35:43,425:INFO:22/213,train_loss:0.319
+2021-04-24 14:35:43,482:INFO:23/213,train_loss:0.490
+2021-04-24 14:35:43,540:INFO:24/213,train_loss:0.478
+2021-04-24 14:35:43,597:INFO:25/213,train_loss:0.334
+2021-04-24 14:35:43,654:INFO:26/213,train_loss:0.433
+2021-04-24 14:35:43,710:INFO:27/213,train_loss:0.249
+2021-04-24 14:35:43,767:INFO:28/213,train_loss:0.418
+2021-04-24 14:35:43,823:INFO:29/213,train_loss:0.394
+2021-04-24 14:35:43,881:INFO:30/213,train_loss:0.319
+2021-04-24 14:35:43,938:INFO:31/213,train_loss:0.289
+2021-04-24 14:35:43,994:INFO:32/213,train_loss:0.343
+2021-04-24 14:35:44,050:INFO:33/213,train_loss:0.272
+2021-04-24 14:35:44,107:INFO:34/213,train_loss:0.237
+2021-04-24 14:35:44,163:INFO:35/213,train_loss:0.400
+2021-04-24 14:35:44,220:INFO:36/213,train_loss:0.231
+2021-04-24 14:35:44,276:INFO:37/213,train_loss:0.265
+2021-04-24 14:35:44,332:INFO:38/213,train_loss:0.241
+2021-04-24 14:35:44,389:INFO:39/213,train_loss:0.217
+2021-04-24 14:35:44,445:INFO:40/213,train_loss:0.225
+2021-04-24 14:35:44,502:INFO:41/213,train_loss:0.209
+2021-04-24 14:35:44,558:INFO:42/213,train_loss:0.209
+2021-04-24 14:35:44,615:INFO:43/213,train_loss:0.207
+2021-04-24 14:35:44,672:INFO:44/213,train_loss:0.240
+2021-04-24 14:35:44,728:INFO:45/213,train_loss:0.425
+2021-04-24 14:35:44,785:INFO:46/213,train_loss:0.199
+2021-04-24 14:35:44,841:INFO:47/213,train_loss:0.197
+2021-04-24 14:35:44,898:INFO:48/213,train_loss:0.198
+2021-04-24 14:35:44,955:INFO:49/213,train_loss:0.187
+2021-04-24 14:35:45,011:INFO:50/213,train_loss:0.188
+2021-04-24 14:35:45,068:INFO:51/213,train_loss:0.184
+2021-04-24 14:35:45,124:INFO:52/213,train_loss:0.172
+2021-04-24 14:35:45,181:INFO:53/213,train_loss:0.214
+2021-04-24 14:35:45,237:INFO:54/213,train_loss:0.311
+2021-04-24 14:35:45,294:INFO:55/213,train_loss:0.171
+2021-04-24 14:35:45,350:INFO:56/213,train_loss:0.220
+2021-04-24 14:35:45,407:INFO:57/213,train_loss:0.166
+2021-04-24 14:35:45,463:INFO:58/213,train_loss:0.189
+2021-04-24 14:35:45,520:INFO:59/213,train_loss:0.166
+2021-04-24 14:35:45,576:INFO:60/213,train_loss:0.157
+2021-04-24 14:35:45,633:INFO:61/213,train_loss:0.381
+2021-04-24 14:35:45,689:INFO:62/213,train_loss:0.167
+2021-04-24 14:35:45,746:INFO:63/213,train_loss:0.154
+2021-04-24 14:35:45,802:INFO:64/213,train_loss:0.153
+2021-04-24 14:35:45,858:INFO:65/213,train_loss:0.184
+2021-04-24 14:35:45,915:INFO:66/213,train_loss:0.231
+2021-04-24 14:35:45,972:INFO:67/213,train_loss:0.141
+2021-04-24 14:35:46,028:INFO:68/213,train_loss:0.138
+2021-04-24 14:35:46,085:INFO:69/213,train_loss:0.144
+2021-04-24 14:35:46,141:INFO:70/213,train_loss:0.146
+2021-04-24 14:35:46,198:INFO:71/213,train_loss:0.271
+2021-04-24 14:35:46,255:INFO:72/213,train_loss:0.166
+2021-04-24 14:35:46,311:INFO:73/213,train_loss:0.278
+2021-04-24 14:35:46,368:INFO:74/213,train_loss:0.162
+2021-04-24 14:35:46,424:INFO:75/213,train_loss:0.165
+2021-04-24 14:35:46,481:INFO:76/213,train_loss:0.142
+2021-04-24 14:35:46,537:INFO:77/213,train_loss:0.232
+2021-04-24 14:35:46,594:INFO:78/213,train_loss:0.134
+2021-04-24 14:35:46,650:INFO:79/213,train_loss:0.173
+2021-04-24 14:35:46,707:INFO:80/213,train_loss:0.280
+2021-04-24 14:35:46,763:INFO:81/213,train_loss:0.258
+2021-04-24 14:35:46,820:INFO:82/213,train_loss:0.121
+2021-04-24 14:35:46,877:INFO:83/213,train_loss:0.124
+2021-04-24 14:35:46,933:INFO:84/213,train_loss:0.147
+2021-04-24 14:35:46,990:INFO:85/213,train_loss:0.134
+2021-04-24 14:35:47,046:INFO:86/213,train_loss:0.221
+2021-04-24 14:35:47,103:INFO:87/213,train_loss:0.134
+2021-04-24 14:35:47,160:INFO:88/213,train_loss:0.174
+2021-04-24 14:35:47,216:INFO:89/213,train_loss:0.360
+2021-04-24 14:35:47,273:INFO:90/213,train_loss:0.118
+2021-04-24 14:35:47,330:INFO:91/213,train_loss:0.156
+2021-04-24 14:35:47,387:INFO:92/213,train_loss:0.197
+2021-04-24 14:35:47,443:INFO:93/213,train_loss:0.200
+2021-04-24 14:35:47,500:INFO:94/213,train_loss:0.125
+2021-04-24 14:35:47,557:INFO:95/213,train_loss:0.136
+2021-04-24 14:35:47,613:INFO:96/213,train_loss:0.193
+2021-04-24 14:35:47,670:INFO:97/213,train_loss:0.224
+2021-04-24 14:35:47,727:INFO:98/213,train_loss:0.118
+2021-04-24 14:35:47,783:INFO:99/213,train_loss:0.134
+2021-04-24 14:35:47,840:INFO:100/213,train_loss:0.119
+2021-04-24 14:35:47,896:INFO:101/213,train_loss:0.107
+2021-04-24 14:35:47,953:INFO:102/213,train_loss:0.105
+2021-04-24 14:35:48,009:INFO:103/213,train_loss:0.130
+2021-04-24 14:35:48,066:INFO:104/213,train_loss:0.130
+2021-04-24 14:35:48,122:INFO:105/213,train_loss:0.123
+2021-04-24 14:35:48,179:INFO:106/213,train_loss:0.143
+2021-04-24 14:35:48,236:INFO:107/213,train_loss:0.108
+2021-04-24 14:35:48,293:INFO:108/213,train_loss:0.111
+2021-04-24 14:35:48,349:INFO:109/213,train_loss:0.103
+2021-04-24 14:35:48,405:INFO:110/213,train_loss:0.190
+2021-04-24 14:35:48,462:INFO:111/213,train_loss:0.125
+2021-04-24 14:35:48,521:INFO:112/213,train_loss:0.110
+2021-04-24 14:35:48,578:INFO:113/213,train_loss:0.095
+2021-04-24 14:35:48,635:INFO:114/213,train_loss:0.091
+2021-04-24 14:35:48,693:INFO:115/213,train_loss:0.115
+2021-04-24 14:35:48,750:INFO:116/213,train_loss:0.099
+2021-04-24 14:35:48,807:INFO:117/213,train_loss:0.131
+2021-04-24 14:35:48,865:INFO:118/213,train_loss:0.089
+2021-04-24 14:35:48,923:INFO:119/213,train_loss:0.092
+2021-04-24 14:35:48,980:INFO:120/213,train_loss:0.084
+2021-04-24 14:35:49,037:INFO:121/213,train_loss:0.413
+2021-04-24 14:35:49,094:INFO:122/213,train_loss:0.084
+2021-04-24 14:35:49,150:INFO:123/213,train_loss:0.088
+2021-04-24 14:35:49,207:INFO:124/213,train_loss:0.092
+2021-04-24 14:35:49,264:INFO:125/213,train_loss:0.115
+2021-04-24 14:35:49,321:INFO:126/213,train_loss:0.080
+2021-04-24 14:35:49,378:INFO:127/213,train_loss:0.137
+2021-04-24 14:35:49,434:INFO:128/213,train_loss:0.255
+2021-04-24 14:35:49,491:INFO:129/213,train_loss:0.087
+2021-04-24 14:35:49,548:INFO:130/213,train_loss:0.085
+2021-04-24 14:35:49,605:INFO:131/213,train_loss:0.091
+2021-04-24 14:35:49,662:INFO:132/213,train_loss:0.310
+2021-04-24 14:35:49,719:INFO:133/213,train_loss:0.168
+2021-04-24 14:35:49,775:INFO:134/213,train_loss:0.101
+2021-04-24 14:35:49,832:INFO:135/213,train_loss:0.187
+2021-04-24 14:35:49,888:INFO:136/213,train_loss:0.077
+2021-04-24 14:35:49,945:INFO:137/213,train_loss:0.119
+2021-04-24 14:35:50,002:INFO:138/213,train_loss:0.489
+2021-04-24 14:35:50,059:INFO:139/213,train_loss:0.167
+2021-04-24 14:35:50,116:INFO:140/213,train_loss:0.082
+2021-04-24 14:35:50,173:INFO:141/213,train_loss:0.159
+2021-04-24 14:35:50,230:INFO:142/213,train_loss:0.188
+2021-04-24 14:35:50,287:INFO:143/213,train_loss:0.107
+2021-04-24 14:35:50,343:INFO:144/213,train_loss:0.110
+2021-04-24 14:35:50,400:INFO:145/213,train_loss:0.085
+2021-04-24 14:35:50,457:INFO:146/213,train_loss:0.075
+2021-04-24 14:35:50,515:INFO:147/213,train_loss:0.250
+2021-04-24 14:35:50,572:INFO:148/213,train_loss:0.089
+2021-04-24 14:35:50,629:INFO:149/213,train_loss:0.160
+2021-04-24 14:35:50,686:INFO:150/213,train_loss:0.091
+2021-04-24 14:35:50,743:INFO:151/213,train_loss:0.086
+2021-04-24 14:35:50,800:INFO:152/213,train_loss:0.091
+2021-04-24 14:35:50,857:INFO:153/213,train_loss:0.083
+2021-04-24 14:35:50,914:INFO:154/213,train_loss:0.195
+2021-04-24 14:35:50,971:INFO:155/213,train_loss:0.077
+2021-04-24 14:35:51,028:INFO:156/213,train_loss:0.082
+2021-04-24 14:35:51,085:INFO:157/213,train_loss:0.185
+2021-04-24 14:35:51,143:INFO:158/213,train_loss:0.075
+2021-04-24 14:35:51,200:INFO:159/213,train_loss:0.074
+2021-04-24 14:35:51,257:INFO:160/213,train_loss:0.103
+2021-04-24 14:35:51,314:INFO:161/213,train_loss:0.117
+2021-04-24 14:35:51,370:INFO:162/213,train_loss:0.082
+2021-04-24 14:35:51,427:INFO:163/213,train_loss:0.116
+2021-04-24 14:35:51,483:INFO:164/213,train_loss:0.101
+2021-04-24 14:35:51,540:INFO:165/213,train_loss:0.090
+2021-04-24 14:35:51,596:INFO:166/213,train_loss:0.074
+2021-04-24 14:35:51,653:INFO:167/213,train_loss:0.074
+2021-04-24 14:35:51,709:INFO:168/213,train_loss:0.103
+2021-04-24 14:35:51,766:INFO:169/213,train_loss:0.072
+2021-04-24 14:35:51,822:INFO:170/213,train_loss:0.073
+2021-04-24 14:35:51,879:INFO:171/213,train_loss:0.075
+2021-04-24 14:35:51,935:INFO:172/213,train_loss:0.169
+2021-04-24 14:35:51,992:INFO:173/213,train_loss:0.064
+2021-04-24 14:35:52,049:INFO:174/213,train_loss:0.068
+2021-04-24 14:35:52,105:INFO:175/213,train_loss:0.071
+2021-04-24 14:35:52,161:INFO:176/213,train_loss:0.069
+2021-04-24 14:35:52,218:INFO:177/213,train_loss:0.083
+2021-04-24 14:35:52,274:INFO:178/213,train_loss:0.058
+2021-04-24 14:35:52,331:INFO:179/213,train_loss:0.069
+2021-04-24 14:35:52,387:INFO:180/213,train_loss:0.076
+2021-04-24 14:35:52,444:INFO:181/213,train_loss:0.099
+2021-04-24 14:35:52,500:INFO:182/213,train_loss:0.064
+2021-04-24 14:35:52,557:INFO:183/213,train_loss:0.278
+2021-04-24 14:35:52,613:INFO:184/213,train_loss:0.058
+2021-04-24 14:35:52,670:INFO:185/213,train_loss:0.066
+2021-04-24 14:35:52,727:INFO:186/213,train_loss:0.086
+2021-04-24 14:35:52,783:INFO:187/213,train_loss:0.109
+2021-04-24 14:35:52,840:INFO:188/213,train_loss:0.065
+2021-04-24 14:35:52,897:INFO:189/213,train_loss:0.071
+2021-04-24 14:35:52,954:INFO:190/213,train_loss:0.070
+2021-04-24 14:35:53,011:INFO:191/213,train_loss:0.076
+2021-04-24 14:35:53,067:INFO:192/213,train_loss:0.109
+2021-04-24 14:35:53,124:INFO:193/213,train_loss:0.113
+2021-04-24 14:35:53,180:INFO:194/213,train_loss:0.062
+2021-04-24 14:35:53,237:INFO:195/213,train_loss:0.070
+2021-04-24 14:35:53,294:INFO:196/213,train_loss:0.065
+2021-04-24 14:35:53,351:INFO:197/213,train_loss:0.076
+2021-04-24 14:35:53,407:INFO:198/213,train_loss:0.112
+2021-04-24 14:35:53,464:INFO:199/213,train_loss:0.056
+2021-04-24 14:35:53,521:INFO:200/213,train_loss:0.063
+2021-04-24 14:35:53,577:INFO:201/213,train_loss:0.246
+2021-04-24 14:35:53,634:INFO:202/213,train_loss:0.132
+2021-04-24 14:35:53,691:INFO:203/213,train_loss:0.151
+2021-04-24 14:35:53,747:INFO:204/213,train_loss:0.061
+2021-04-24 14:35:53,804:INFO:205/213,train_loss:0.066
+2021-04-24 14:35:53,861:INFO:206/213,train_loss:0.054
+2021-04-24 14:35:53,917:INFO:207/213,train_loss:0.172
+2021-04-24 14:35:53,974:INFO:208/213,train_loss:0.058
+2021-04-24 14:35:54,030:INFO:209/213,train_loss:0.075
+2021-04-24 14:35:54,087:INFO:210/213,train_loss:0.142
+2021-04-24 14:35:54,144:INFO:211/213,train_loss:0.055
+2021-04-24 14:35:54,201:INFO:212/213,train_loss:0.064
+2021-04-24 14:35:54,257:INFO:213/213,train_loss:0.089
+2021-04-24 14:35:59,535:INFO:Miou=0.017257,aver_hd=0.120014,aver_dice=0.017866
+2021-04-24 14:35:59,535:INFO:aver_iou:0.017257099698752797 > best_iou:0
+2021-04-24 14:35:59,535:INFO:===========>save best model!
+2021-04-24 14:35:59,556:INFO:epoch 0 loss:40.331
+2021-04-24 14:35:59,577:DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,578:DEBUG:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'NanumGothic' (NanumGothicBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXVariants' (STIXVariants-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal 700 condensed>) = 10.535
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXIntegralsUpD' (STIXIntegralsUpD-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'NanumGothic' (NanumGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizeTwoSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,579:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizeOneSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizeFourSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Padauk Book' (Padauk-book.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXIntegralsD' (STIXIntegralsD-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIX' (STIX-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizeFourSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal 900 normal>) = 10.525
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal 300 normal>) = 11.145
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'STIXIntegralsSm' (STIXIntegralsSm-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,580:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'STIXIntegralsSm' (STIXIntegralsSm-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal 300 normal>) = 10.145
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'STIXIntegralsUpSm' (STIXIntegralsUpSm-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal 350 normal>) = 10.0975
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Padauk' (Padauk-bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'STIXVariants' (STIXVariants-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'STIXIntegralsUpD' (STIXIntegralsUpD-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Padauk Book' (Padauk-bookbold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizeFiveSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,581:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIX Math' (STIXMath-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'NanumMyeongjo' (NanumMyeongjoBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal 300 normal>) = 10.145
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIXIntegralsD' (STIXIntegralsD-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIX' (STIX-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizeThreeSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 600 normal>) = 11.24
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal 700 condensed>) = 0.5349999999999999
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizeOneSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,582:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 500 normal>) = 11.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 500 normal>) = 11.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'STIX' (STIX-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 250 normal>) = 10.1925
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'STIXIntegralsUp' (STIXIntegralsUp-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,583:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'NanumBarunGothic' (NanumBarunGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'TakaoPGothic' (TakaoPGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'NanumBarunGothic' (NanumBarunGothicBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal 200 normal>) = 0.24
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizeTwoSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'TakaoPGothic' (fonts-japanese-gothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Padauk' (Padauk.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'STIX' (STIX-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:35:59,584:DEBUG:findfont: score(<Font 'STIXIntegralsUpSm' (STIXIntegralsUpSm-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizeThreeSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Symbola' (Symbola_hint.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'NanumMyeongjo' (NanumMyeongjo.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Lohit Punjabi' (Lohit-Punjabi.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal 300 normal>) = 11.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal 700 condensed>) = 1.535
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal 300 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'STIXIntegralsUp' (STIXIntegralsUp-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:35:59,585:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:35:59,585:DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/autolab/anaconda3/envs/cyf/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2021-04-24 14:35:59,769:INFO:final test........
+2021-04-24 14:36:05,143:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:05,143:DEBUG:- __first: 8
+2021-04-24 14:36:05,143:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:05,143:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:05,143:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:25:47\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:25:47\x00'
+2021-04-24 14:36:05,143:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:05,144:DEBUG:*** Summary ***
+2021-04-24 14:36:05,144:DEBUG:- compression: raw
+2021-04-24 14:36:05,144:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:05,144:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:05,144:DEBUG:- fill_order: 1
+2021-04-24 14:36:05,144:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:05,144:DEBUG:- size: (512, 512)
+2021-04-24 14:36:05,144:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:05,144:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:05,144:DEBUG:- pil mode: I
+2021-04-24 14:36:05,176:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:05,176:DEBUG:- __first: 8
+2021-04-24 14:36:05,176:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:05,176:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:05,176:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:05,176:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:05,176:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,176:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:25:47\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:25:47\x00'
+2021-04-24 14:36:05,177:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:05,177:DEBUG:*** Summary ***
+2021-04-24 14:36:05,177:DEBUG:- compression: raw
+2021-04-24 14:36:05,177:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:05,177:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:05,177:DEBUG:- fill_order: 1
+2021-04-24 14:36:05,177:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:05,177:DEBUG:- size: (512, 512)
+2021-04-24 14:36:05,177:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:05,177:DEBUG:- raw mode: L
+2021-04-24 14:36:05,177:DEBUG:- pil mode: L
+2021-04-24 14:36:05,181:DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,181:DEBUG:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,182:DEBUG:findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'NanumGothic' (NanumGothicBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXVariants' (STIXVariants-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal 700 condensed>) = 10.535
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXIntegralsUpD' (STIXIntegralsUpD-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'NanumGothic' (NanumGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizeTwoSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizeOneSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizeFourSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Padauk Book' (Padauk-book.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIXIntegralsD' (STIXIntegralsD-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,183:DEBUG:findfont: score(<Font 'STIX' (STIX-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'STIXSizeFourSym' (STIXSizeFourSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal 900 normal>) = 10.525
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal 300 normal>) = 11.145
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'STIXIntegralsSm' (STIXIntegralsSm-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'STIXIntegralsSm' (STIXIntegralsSm-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal 300 normal>) = 10.145
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,184:DEBUG:findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXIntegralsUpSm' (STIXIntegralsUpSm-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal 350 normal>) = 10.0975
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Padauk' (Padauk-bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXVariants' (STIXVariants-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXIntegralsUpD' (STIXIntegralsUpD-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Padauk Book' (Padauk-bookbold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizeFiveSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-BoldItalic.otf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIX Math' (STIXMath-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'NanumMyeongjo' (NanumMyeongjoBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal 300 normal>) = 10.145
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIXIntegralsD' (STIXIntegralsD-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,185:DEBUG:findfont: score(<Font 'STIX' (STIX-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizeThreeSym-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 600 normal>) = 11.24
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal 700 condensed>) = 0.5349999999999999
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'STIXSizeOneSym' (STIXSizeOneSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 500 normal>) = 11.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 500 normal>) = 11.145
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'STIX' (STIX-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 250 normal>) = 10.1925
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2021-04-24 14:36:05,186:DEBUG:findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'STIXIntegralsUp' (STIXIntegralsUp-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'NanumBarunGothic' (NanumBarunGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'TakaoPGothic' (TakaoPGothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'NanumBarunGothic' (NanumBarunGothicBold.ttf) normal normal 600 normal>) = 10.24
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,187:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal 200 normal>) = 0.24
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizeTwoSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'STIXGeneral' (STIXGeneral-Italic.otf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'TakaoPGothic' (fonts-japanese-gothic.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Padauk' (Padauk.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'STIX' (STIX-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'STIXIntegralsUpSm' (STIXIntegralsUpSm-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizeThreeSym-Bold.otf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Symbola' (Symbola_hint.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'NanumMyeongjo' (NanumMyeongjo.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,188:DEBUG:findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Lohit Punjabi' (Lohit-Punjabi.ttf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal 300 normal>) = 11.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 500 normal>) = 11.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal 700 condensed>) = 1.535
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal 300 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'STIXNonUnicode' (STIXNonUnicode-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'STIXIntegralsUp' (STIXIntegralsUp-Regular.otf) normal normal 400 normal>) = 10.05
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+2021-04-24 14:36:05,189:DEBUG:findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 500 normal>) = 10.145
+2021-04-24 14:36:05,189:DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/autolab/anaconda3/envs/cyf/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2021-04-24 14:36:05,255:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:05,255:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:05,255:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:05,255:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:05,255:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:05,255:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:05,255:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:05,255:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:05,255:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:05,255:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:05,255:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:05,255:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:05,255:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:05,255:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:05,255:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:05,255:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:05,255:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:05,255:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:05,255:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:05,255:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:05,255:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:05,255:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:05,255:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:05,255:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:05,255:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:05,255:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:05,255:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:05,255:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:05,255:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:05,256:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:05,256:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:05,256:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:05,256:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:05,256:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:05,256:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:10,437:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:10,437:DEBUG:- __first: 8
+2021-04-24 14:36:10,437:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:10,437:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:10,437:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:31:14\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:31:14\x00'
+2021-04-24 14:36:10,437:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:10,437:DEBUG:*** Summary ***
+2021-04-24 14:36:10,437:DEBUG:- compression: raw
+2021-04-24 14:36:10,437:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:10,437:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:10,438:DEBUG:- fill_order: 1
+2021-04-24 14:36:10,438:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:10,438:DEBUG:- size: (512, 512)
+2021-04-24 14:36:10,438:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:10,438:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:10,438:DEBUG:- pil mode: I
+2021-04-24 14:36:10,469:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:10,469:DEBUG:- __first: 8
+2021-04-24 14:36:10,469:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:10,469:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:10,469:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:10,469:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:10,469:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,469:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:31:14\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:31:14\x00'
+2021-04-24 14:36:10,470:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:10,470:DEBUG:*** Summary ***
+2021-04-24 14:36:10,470:DEBUG:- compression: raw
+2021-04-24 14:36:10,470:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:10,470:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:10,470:DEBUG:- fill_order: 1
+2021-04-24 14:36:10,470:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:10,470:DEBUG:- size: (512, 512)
+2021-04-24 14:36:10,470:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:10,470:DEBUG:- raw mode: L
+2021-04-24 14:36:10,470:DEBUG:- pil mode: L
+2021-04-24 14:36:10,539:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:10,539:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:10,539:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:10,539:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:10,539:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:10,539:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:10,539:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:10,539:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:10,539:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:10,539:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:10,539:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:10,539:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:10,539:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:10,539:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:10,539:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:10,539:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:10,539:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:10,539:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:10,539:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:10,539:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:10,539:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:10,539:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:10,540:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:10,540:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:10,540:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:10,540:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:10,540:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:10,540:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:10,540:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:10,540:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:10,540:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:10,540:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:10,540:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:10,540:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:10,540:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:15,801:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:15,802:DEBUG:- __first: 8
+2021-04-24 14:36:15,802:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:15,802:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:15,802:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:31\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:31\x00'
+2021-04-24 14:36:15,802:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:15,802:DEBUG:*** Summary ***
+2021-04-24 14:36:15,802:DEBUG:- compression: raw
+2021-04-24 14:36:15,802:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:15,802:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:15,802:DEBUG:- fill_order: 1
+2021-04-24 14:36:15,802:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:15,803:DEBUG:- size: (512, 512)
+2021-04-24 14:36:15,803:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:15,803:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:15,803:DEBUG:- pil mode: I
+2021-04-24 14:36:15,833:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:15,834:DEBUG:- __first: 8
+2021-04-24 14:36:15,834:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:15,834:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:15,834:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:31\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:31\x00'
+2021-04-24 14:36:15,834:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:15,834:DEBUG:*** Summary ***
+2021-04-24 14:36:15,834:DEBUG:- compression: raw
+2021-04-24 14:36:15,834:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:15,834:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:15,834:DEBUG:- fill_order: 1
+2021-04-24 14:36:15,834:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:15,834:DEBUG:- size: (512, 512)
+2021-04-24 14:36:15,834:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:15,834:DEBUG:- raw mode: L
+2021-04-24 14:36:15,835:DEBUG:- pil mode: L
+2021-04-24 14:36:15,903:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:15,903:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:15,903:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:15,903:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:15,903:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:15,903:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:15,903:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:15,903:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:15,903:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:15,903:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:15,903:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:15,903:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:15,903:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:15,903:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:15,903:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:15,903:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:15,903:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:15,903:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:15,903:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:15,903:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:15,903:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:15,903:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:15,903:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:15,903:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:15,903:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:15,903:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:15,903:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:15,903:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:15,903:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:15,904:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:15,904:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:15,904:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:15,904:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:15,904:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:15,904:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:20,835:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:20,836:DEBUG:- __first: 8
+2021-04-24 14:36:20,836:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:20,836:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:20,836:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:30:57\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:30:57\x00'
+2021-04-24 14:36:20,836:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:20,836:DEBUG:*** Summary ***
+2021-04-24 14:36:20,836:DEBUG:- compression: raw
+2021-04-24 14:36:20,836:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:20,836:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:20,836:DEBUG:- fill_order: 1
+2021-04-24 14:36:20,836:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:20,837:DEBUG:- size: (512, 512)
+2021-04-24 14:36:20,837:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:20,837:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:20,837:DEBUG:- pil mode: I
+2021-04-24 14:36:20,868:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:20,868:DEBUG:- __first: 8
+2021-04-24 14:36:20,868:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:20,868:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:20,868:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:30:57\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:30:57\x00'
+2021-04-24 14:36:20,868:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:20,869:DEBUG:*** Summary ***
+2021-04-24 14:36:20,869:DEBUG:- compression: raw
+2021-04-24 14:36:20,869:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:20,869:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:20,869:DEBUG:- fill_order: 1
+2021-04-24 14:36:20,869:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:20,869:DEBUG:- size: (512, 512)
+2021-04-24 14:36:20,869:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:20,869:DEBUG:- raw mode: L
+2021-04-24 14:36:20,869:DEBUG:- pil mode: L
+2021-04-24 14:36:20,938:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:20,938:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:20,938:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:20,938:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:20,938:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:20,938:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:20,938:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:20,938:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:20,938:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:20,938:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:20,938:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:20,939:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:20,939:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:20,939:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:20,939:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:20,939:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:20,939:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:20,939:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:20,939:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:20,939:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:20,939:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:20,939:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:20,939:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:20,939:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:20,939:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:20,939:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:20,939:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:20,939:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:20,939:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:20,939:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:20,939:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:20,939:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:20,939:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:20,939:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:20,939:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:26,230:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:26,230:DEBUG:- __first: 8
+2021-04-24 14:36:26,230:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:26,230:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:26,230:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,230:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:49\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:49\x00'
+2021-04-24 14:36:26,231:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:26,231:DEBUG:*** Summary ***
+2021-04-24 14:36:26,231:DEBUG:- compression: raw
+2021-04-24 14:36:26,231:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:26,231:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:26,231:DEBUG:- fill_order: 1
+2021-04-24 14:36:26,231:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:26,231:DEBUG:- size: (512, 512)
+2021-04-24 14:36:26,231:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:26,231:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:26,231:DEBUG:- pil mode: I
+2021-04-24 14:36:26,262:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:26,262:DEBUG:- __first: 8
+2021-04-24 14:36:26,262:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:26,263:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:26,263:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:49\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:49\x00'
+2021-04-24 14:36:26,263:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:26,263:DEBUG:*** Summary ***
+2021-04-24 14:36:26,263:DEBUG:- compression: raw
+2021-04-24 14:36:26,263:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:26,263:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:26,263:DEBUG:- fill_order: 1
+2021-04-24 14:36:26,263:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:26,263:DEBUG:- size: (512, 512)
+2021-04-24 14:36:26,263:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:26,263:DEBUG:- raw mode: L
+2021-04-24 14:36:26,263:DEBUG:- pil mode: L
+2021-04-24 14:36:26,332:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:26,332:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:26,332:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:26,332:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:26,332:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:26,332:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:26,333:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:26,333:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:26,333:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:26,333:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:26,333:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:26,333:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:26,333:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:26,333:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:26,333:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:26,333:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:26,333:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:26,333:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:26,333:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:26,333:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:26,333:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:26,333:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:26,333:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:26,333:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:26,333:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:26,333:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:26,333:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:26,333:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:26,333:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:26,333:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:26,333:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:26,333:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:26,333:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:26,333:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:26,333:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:31,593:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:31,593:DEBUG:- __first: 8
+2021-04-24 14:36:31,593:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:31,593:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:31,593:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:28:33\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:31,593:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:28:33\x00'
+2021-04-24 14:36:31,594:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:31,594:DEBUG:*** Summary ***
+2021-04-24 14:36:31,594:DEBUG:- compression: raw
+2021-04-24 14:36:31,594:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:31,594:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:31,594:DEBUG:- fill_order: 1
+2021-04-24 14:36:31,594:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:31,594:DEBUG:- size: (512, 512)
+2021-04-24 14:36:31,594:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:31,594:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:31,594:DEBUG:- pil mode: I
+2021-04-24 14:36:31,625:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:31,625:DEBUG:- __first: 8
+2021-04-24 14:36:31,625:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:31,625:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:31,625:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:28:33\x00'
+2021-04-24 14:36:31,625:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:28:33\x00'
+2021-04-24 14:36:31,626:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:31,626:DEBUG:*** Summary ***
+2021-04-24 14:36:31,626:DEBUG:- compression: raw
+2021-04-24 14:36:31,626:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:31,626:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:31,626:DEBUG:- fill_order: 1
+2021-04-24 14:36:31,626:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:31,626:DEBUG:- size: (512, 512)
+2021-04-24 14:36:31,626:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:31,626:DEBUG:- raw mode: L
+2021-04-24 14:36:31,626:DEBUG:- pil mode: L
+2021-04-24 14:36:31,694:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:31,694:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:31,694:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:31,694:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:31,694:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:31,694:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:31,694:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:31,694:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:31,694:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:31,694:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:31,694:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:31,694:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:31,694:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:31,694:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:31,694:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:31,694:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:31,694:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:31,694:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:31,694:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:31,694:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:31,695:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:31,695:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:31,695:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:31,695:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:31,695:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:31,695:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:31,695:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:31,695:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:31,695:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:31,695:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:31,695:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:31,695:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:31,695:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:31,695:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:31,695:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:36,899:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:36,899:DEBUG:- __first: 8
+2021-04-24 14:36:36,899:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:36,899:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:36,900:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:36,900:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:05\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:05\x00'
+2021-04-24 14:36:36,900:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:36,900:DEBUG:*** Summary ***
+2021-04-24 14:36:36,900:DEBUG:- compression: raw
+2021-04-24 14:36:36,900:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:36,900:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:36,900:DEBUG:- fill_order: 1
+2021-04-24 14:36:36,900:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:36,900:DEBUG:- size: (512, 512)
+2021-04-24 14:36:36,900:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:36,900:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:36,900:DEBUG:- pil mode: I
+2021-04-24 14:36:36,932:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:36,932:DEBUG:- __first: 8
+2021-04-24 14:36:36,932:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:36,932:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:36,932:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:06\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,932:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:36,933:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:36,933:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:36,933:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:06\x00'
+2021-04-24 14:36:36,933:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:36,933:DEBUG:*** Summary ***
+2021-04-24 14:36:36,933:DEBUG:- compression: raw
+2021-04-24 14:36:36,933:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:36,933:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:36,933:DEBUG:- fill_order: 1
+2021-04-24 14:36:36,933:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:36,933:DEBUG:- size: (512, 512)
+2021-04-24 14:36:36,933:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:36,933:DEBUG:- raw mode: L
+2021-04-24 14:36:36,933:DEBUG:- pil mode: L
+2021-04-24 14:36:37,001:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:37,001:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:37,001:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:37,001:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:37,001:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:37,001:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:37,001:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:37,001:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:37,001:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:37,001:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:37,001:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:37,001:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:37,001:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:37,001:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:37,001:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:37,001:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:37,001:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:37,001:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:37,001:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:37,001:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:37,001:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:37,001:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:37,002:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:37,002:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:37,002:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:37,002:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:37,002:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:37,002:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:37,002:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:37,002:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:37,002:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:37,002:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:37,002:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:37,002:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:37,002:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:42,071:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:42,071:DEBUG:- __first: 8
+2021-04-24 14:36:42,071:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:42,071:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:42,071:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:11\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,071:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:11\x00'
+2021-04-24 14:36:42,072:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:42,072:DEBUG:*** Summary ***
+2021-04-24 14:36:42,072:DEBUG:- compression: raw
+2021-04-24 14:36:42,072:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:42,072:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:42,072:DEBUG:- fill_order: 1
+2021-04-24 14:36:42,072:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:42,072:DEBUG:- size: (512, 512)
+2021-04-24 14:36:42,072:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:42,072:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:42,072:DEBUG:- pil mode: I
+2021-04-24 14:36:42,104:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:42,104:DEBUG:- __first: 8
+2021-04-24 14:36:42,104:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:42,104:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:42,104:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:11\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:42,104:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:11\x00'
+2021-04-24 14:36:42,105:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:42,105:DEBUG:*** Summary ***
+2021-04-24 14:36:42,105:DEBUG:- compression: raw
+2021-04-24 14:36:42,105:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:42,105:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:42,105:DEBUG:- fill_order: 1
+2021-04-24 14:36:42,105:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:42,105:DEBUG:- size: (512, 512)
+2021-04-24 14:36:42,105:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:42,105:DEBUG:- raw mode: L
+2021-04-24 14:36:42,105:DEBUG:- pil mode: L
+2021-04-24 14:36:42,173:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:42,174:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:42,174:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:42,174:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:42,174:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:42,174:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:42,174:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:42,174:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:42,174:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:42,174:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:42,174:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:42,174:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:42,174:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:42,174:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:42,174:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:42,174:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:42,174:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:42,174:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:42,174:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:42,174:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:42,174:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:42,174:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:42,174:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:42,174:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:42,174:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:42,174:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:42,174:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:42,174:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:42,174:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:42,174:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:42,174:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:42,174:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:42,175:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:42,175:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:42,175:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:42,175:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:42,175:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:47,545:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:47,545:DEBUG:- __first: 8
+2021-04-24 14:36:47,545:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:47,545:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:47,545:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:55\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:47,545:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:55\x00'
+2021-04-24 14:36:47,546:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:47,546:DEBUG:*** Summary ***
+2021-04-24 14:36:47,546:DEBUG:- compression: raw
+2021-04-24 14:36:47,546:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:47,546:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:47,546:DEBUG:- fill_order: 1
+2021-04-24 14:36:47,546:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:47,546:DEBUG:- size: (512, 512)
+2021-04-24 14:36:47,546:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:47,546:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:47,546:DEBUG:- pil mode: I
+2021-04-24 14:36:47,578:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:47,578:DEBUG:- __first: 8
+2021-04-24 14:36:47,578:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:47,578:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:47,578:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:55\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:47,578:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:47,579:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:47,579:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:26:55\x00'
+2021-04-24 14:36:47,579:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:47,579:DEBUG:*** Summary ***
+2021-04-24 14:36:47,579:DEBUG:- compression: raw
+2021-04-24 14:36:47,579:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:47,579:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:47,579:DEBUG:- fill_order: 1
+2021-04-24 14:36:47,579:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:47,579:DEBUG:- size: (512, 512)
+2021-04-24 14:36:47,579:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:47,579:DEBUG:- raw mode: L
+2021-04-24 14:36:47,579:DEBUG:- pil mode: L
+2021-04-24 14:36:47,647:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:47,647:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:47,647:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:47,647:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:47,647:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:47,647:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:47,647:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:47,647:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:47,647:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:47,647:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:47,647:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:47,647:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:47,647:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:47,647:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:47,648:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:47,648:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:47,648:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:47,648:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:47,648:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:47,648:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:47,648:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:47,648:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:47,648:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:47,648:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:47,648:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:47,648:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:47,648:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:47,648:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:47,648:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:47,648:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:47,648:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:47,648:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:47,648:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:47,648:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:47,648:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:52,599:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:52,599:DEBUG:- __first: 8
+2021-04-24 14:36:52,599:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:52,599:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:52,599:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:58\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x10\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x08\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:52,599:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:58\x00'
+2021-04-24 14:36:52,600:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x02\x00'
+2021-04-24 14:36:52,600:DEBUG:*** Summary ***
+2021-04-24 14:36:52,600:DEBUG:- compression: raw
+2021-04-24 14:36:52,600:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:52,600:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:52,600:DEBUG:- fill_order: 1
+2021-04-24 14:36:52,600:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:52,600:DEBUG:- size: (512, 512)
+2021-04-24 14:36:52,600:DEBUG:format key: (b'II', 1, (2,), 1, (16,), ())
+2021-04-24 14:36:52,600:DEBUG:- raw mode: I;16S
+2021-04-24 14:36:52,600:DEBUG:- pil mode: I
+2021-04-24 14:36:52,631:DEBUG:*** TiffImageFile._open ***
+2021-04-24 14:36:52,631:DEBUG:- __first: 8
+2021-04-24 14:36:52,631:DEBUG:- ifh: b'II*\x00\x08\x00\x00\x00'
+2021-04-24 14:36:52,631:DEBUG:Seeking to frame 0, on frame -1, __next 8, location: 8
+2021-04-24 14:36:52,631:DEBUG:Loading tags, location: 8
+2021-04-24 14:36:52,631:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:52,631:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,631:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,631:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:52,631:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,631:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:58\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: NewSubfileType (254) - type: long (4) - value: b'\x00\x00\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: ImageWidth (256) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: ImageLength (257) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: BitsPerSample (258) - type: short (3) - value: b'\x08\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: Compression (259) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: StripOffsets (273) - type: long (4) - value: b'\xd6\x00\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: SamplesPerPixel (277) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: RowsPerStrip (278) - type: long (4) - value: b'\x00\x02\x00\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: StripByteCounts (279) - type: long (4) - value: b'\x00\x00\x04\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 182 - value: b'tifffile.py\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 194 - value: b'2017:04:26 13:27:58\x00'
+2021-04-24 14:36:52,632:DEBUG:tag: SampleFormat (339) - type: short (3) - value: b'\x01\x00'
+2021-04-24 14:36:52,632:DEBUG:*** Summary ***
+2021-04-24 14:36:52,632:DEBUG:- compression: raw
+2021-04-24 14:36:52,632:DEBUG:- photometric_interpretation: 1
+2021-04-24 14:36:52,632:DEBUG:- planar_configuration: 1
+2021-04-24 14:36:52,632:DEBUG:- fill_order: 1
+2021-04-24 14:36:52,632:DEBUG:- YCbCr subsampling: None
+2021-04-24 14:36:52,632:DEBUG:- size: (512, 512)
+2021-04-24 14:36:52,632:DEBUG:format key: (b'II', 1, (1,), 1, (8,), ())
+2021-04-24 14:36:52,632:DEBUG:- raw mode: L
+2021-04-24 14:36:52,632:DEBUG:- pil mode: L
+2021-04-24 14:36:52,700:DEBUG:Tiffinfo Keys: []
+2021-04-24 14:36:52,700:DEBUG:Tag 256, Type: 4, Value: 640
+2021-04-24 14:36:52,701:DEBUG:save: ImageWidth (256) - type: long (4) - value: (640,)
+2021-04-24 14:36:52,701:DEBUG:Tag 257, Type: 4, Value: 480
+2021-04-24 14:36:52,701:DEBUG:save: ImageLength (257) - type: long (4) - value: (480,)
+2021-04-24 14:36:52,701:DEBUG:Tag 258, Type: 3, Value: (8, 8, 8, 8)
+2021-04-24 14:36:52,701:DEBUG:save: BitsPerSample (258) - type: short (3) - value: (8, 8, 8, 8)
+2021-04-24 14:36:52,701:DEBUG:Tag 259, Type: 3, Value: 1
+2021-04-24 14:36:52,701:DEBUG:save: Compression (259) - type: short (3) - value: (1,)
+2021-04-24 14:36:52,701:DEBUG:Tag 262, Type: 3, Value: 2
+2021-04-24 14:36:52,701:DEBUG:save: PhotometricInterpretation (262) - type: short (3) - value: (2,)
+2021-04-24 14:36:52,701:DEBUG:Tag 273, Type: 4, Value: (0,)
+2021-04-24 14:36:52,701:DEBUG:save: StripOffsets (273) - type: long (4) - value: (0,)
+2021-04-24 14:36:52,701:DEBUG:Tag 277, Type: 3, Value: 4
+2021-04-24 14:36:52,701:DEBUG:save: SamplesPerPixel (277) - type: short (3) - value: (4,)
+2021-04-24 14:36:52,701:DEBUG:Tag 278, Type: 4, Value: 480
+2021-04-24 14:36:52,701:DEBUG:save: RowsPerStrip (278) - type: long (4) - value: (480,)
+2021-04-24 14:36:52,701:DEBUG:Tag 279, Type: 4, Value: (1228800,)
+2021-04-24 14:36:52,701:DEBUG:save: StripByteCounts (279) - type: long (4) - value: (1228800,)
+2021-04-24 14:36:52,701:DEBUG:Tag 282, Type: 5, Value: 100.0
+2021-04-24 14:36:52,701:DEBUG:save: XResolution (282) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:52,701:DEBUG:Tag 283, Type: 5, Value: 100.0
+2021-04-24 14:36:52,701:DEBUG:save: YResolution (283) - type: rational (5) - value: (100.0,)
+2021-04-24 14:36:52,701:DEBUG:Tag 284, Type: 3, Value: 1
+2021-04-24 14:36:52,701:DEBUG:save: PlanarConfiguration (284) - type: short (3) - value: (1,)
+2021-04-24 14:36:52,701:DEBUG:Tag 296, Type: 3, Value: 2
+2021-04-24 14:36:52,701:DEBUG:save: ResolutionUnit (296) - type: short (3) - value: (2,)
+2021-04-24 14:36:52,701:DEBUG:Tag 338, Type: 3, Value: (2,)
+2021-04-24 14:36:52,701:DEBUG:save: ExtraSamples (338) - type: short (3) - value: (2,)
+2021-04-24 14:36:52,701:DEBUG:256 4 1 b'\x80\x02\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:257 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:258 3 4 b'\xb6\x00\x00\x00' b'\x08\x00\x08\x00\x08\x00\x08\x00'
+2021-04-24 14:36:52,701:DEBUG:259 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:262 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:273 4 1 b'\xce\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:277 3 1 b'\x04\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:278 4 1 b'\xe0\x01\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:279 4 1 b'\x00\xc0\x12\x00' b''
+2021-04-24 14:36:52,701:DEBUG:282 5 1 b'\xbe\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:52,701:DEBUG:283 5 1 b'\xc6\x00\x00\x00' b'd\x00\x00\x00\x01\x00\x00\x00'
+2021-04-24 14:36:52,701:DEBUG:284 3 1 b'\x01\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:296 3 1 b'\x02\x00\x00\x00' b''
+2021-04-24 14:36:52,701:DEBUG:338 3 1 b'\x02\x00\x00\x00' b''

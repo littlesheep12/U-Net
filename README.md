@@ -14,12 +14,16 @@ python main.py --action train&test --arch UNet --epoch 21 --batch_size 21
 <p align="center">
   <img src="https://github.com/littlesheep12/U-Net/blob/main/Unet_model.png" />
 </p>
+
 ## RESULTS
 after train and test,3 folders will be created,they are "result","saved_model","saved_predict".
+
 ### saved_model folder:
 After training,the saved model is in this folder.
+
 ### result folder:
 <p align="center">
   <img src="https://github.com/littlesheep12/U-Net/blob/main/lung.png" />
 </p>
+
 ![result_1](https://github.com/littlesheep12/U-Net/blob/main/result_1.png "result_1")
